@@ -1,0 +1,152 @@
+body {
+  /* background: #424242; */
+}
+.website-header {
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  width: 100%;
+  font-family: "Montserrat";
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.top-bar {
+  background: #e71c31;
+}
+.top-bar nav {
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-bar nav ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.top-bar nav ul li a {
+  color: #fff;
+  padding: 0.2rem 0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+.top-bar nav ul li a:hover {
+  border-bottom: 1px solid rgba(255, 255, 255);
+  transition: 0.3s ease;
+}
+.mainBar {
+  width: 100%;
+  height: 104px;
+  /* background: rgba(255, 255, 255, .3); */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+.mainBar:hover {
+  background: #fff;
+  transition: 0.4s ease;
+}
+.mainBarWrap {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.mainBarWrap nav ul li {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  padding: 0 1.5rem;
+}
+.mainBarWrap nav ul li::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 6px;
+  width: 0%;
+  background: #e71c31;
+  transition: 0.3s ease;
+}
+.mainBarWrap nav ul li:hover::after {
+  width: 100%;
+}
+.mainBarWrap nav ul li a {
+  height: 104px;
+  display: inline-block;
+  line-height: 104px;
+  padding: 0 1rem;
+  color: #fff;
+  font-weight: 700;
+  position: relative;
+}
+.mainBarWrap nav ul li:not(:last-child):before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+  width: 2px;
+  height: 20px;
+  background: white;
+}
+.mainBar:hover .mainBarWrap nav ul li::before {
+  background: #111;
+  transition: 0.3s ease;
+}
+.mainBar:hover .mainBarWrap nav ul li a {
+  color: #111;
+  transition: 0.3s ease;
+}
+.mainBar:hover .mainBarWrap .logoWrap {
+  color: #111;
+}
+.mainBar .logoWrap {
+  font-weight: bolder;
+  font-size: 1.2rem;
+  color: #fff;
+  transition: 0.3s ease;
+}
+.menuBtn {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;   
+  position: relative;
+  display: none;
+}
+.menuBtn span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: red;
+  width: 35px;
+  height: 6px;
+  transition: 0.4s ease;
+}
+.menuBtn span:nth-child(1) {
+  top: 30%;
+}
+.menuBtn span:nth-child(3) {
+  top: 70%;
+}
+.menuBtn:hover span:nth-child(1) {
+  /* width: 30px; */
+  transform: translate(-50%, -50%) rotate(360deg);
+}
+.menuBtn:hover span:nth-child(3) {
+  /* width: 30px; */
+  transform: translate(-50%, -50%) rotate(-360deg);
+}
+
+@media screen and (max-width: 768px) {
+    .menuBtn {
+        display: block;
+    }
+}

@@ -1,0 +1,111 @@
+.heroContainer {
+  margin-top: 3rem;
+  width: 100%;
+  height: 100vh;
+  font-family: "Jost";
+  position: relative;
+  margin-bottom: 4rem;
+}
+.heroContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
+  /* background-image: linear-gradient(to bottom, rgba(234, 233, 189, 0.5), transparent); */
+  z-index: 10;
+}
+.heroBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+}
+video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.heroContent {
+  width: 100%; 
+  height: 100vh;
+  position: relative;
+  
+}
+.heroContentWrap {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+
+  z-index: 999;
+
+
+}
+.heroText {
+  
+  width: 100%;
+  height: 100%;
+
+}
+.heroContent h1 {
+  font-size: 4.5rem;
+  color: whitesmoke;
+  margin: 1rem 0;
+}
+.heroContent p {
+  font-size: 2rem;
+  color: whitesmoke;
+  font-family: "Jost";
+  width: 700px;
+}
+
+
+.heroContent .heroBtn {
+  margin: 2rem 0;
+  padding: 1.5rem 2rem;
+  font-size: 20px;
+  background: red;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+}
+
+
+.heroBtn a {
+  position: relative;
+  z-index: 9999;
+  color: #fff;
+  transition: .3s ease;
+}
+.heroBtn:hover a {
+  color: #111;
+}
+ .heroBtn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0%; 
+  height: 100%; 
+  background: white; 
+  z-index: 1;
+  transition: .3s ease;
+}
+.heroBtn:hover::before {
+  width: 101%; 
+  height: 101%; 
+}
+
