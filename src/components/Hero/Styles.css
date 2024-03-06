@@ -41,7 +41,7 @@ video {
 }
 .heroContentWrap {
   position: absolute;
-  top: 70%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
@@ -71,7 +71,7 @@ video {
 
 
 .heroContent .heroBtn {
-  margin: 2rem 0;
+  margin: 3rem 0;
   padding: 1.5rem 2rem;
   font-size: 20px;
   background: red;
