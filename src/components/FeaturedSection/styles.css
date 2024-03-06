@@ -1,15 +1,31 @@
 
 
 .featured-section {
-    height: 100vh;
     width: 100%;
+    height: 80vh;
+
 }
 .featured-section .featuredWrap {
     width: 80%;
-    height: 80vh;
-    margin: 0 auto;
-
+    height: 100%;
+    margin: 0 auto; 
+    /* border: 1px solid red; */
+}
+.featured-card {
+    width: 100%; 
+    height: 100%;
     display: grid;
+    align-items: center;
     grid-template-columns: repeat(2, 1fr);
-    border: 1px solid red;
+}
+.featured-card .text-box h1 {
+    margin: 1rem 0;
+    font-size: 4rem;
+    letter-spacing: 1px;
+}
+.featured-card .text-box  p{
+    font-size: 20px;
+    font-family: verdana;
+    line-height: 1.8;
+    letter-spacing: 1px;
 }

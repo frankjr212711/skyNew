@@ -13,6 +13,10 @@ export const Home = () => {
       <Hero />
       <IntroSection/>
       <FeaturedSection/>
+      <FeaturedSection/>
+      <FeaturedSection/>
+      
+
     </div>
   );
 };
