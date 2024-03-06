@@ -1,6 +1,7 @@
 
 
 import { FeaturedSection } from "../FeaturedSection";
+import { Footer } from "../Footer";
 import { Header } from "../Header/index";
 import { Hero } from "../Hero/index";
 import { IntroSection } from "../IntroSection";
@@ -15,6 +16,7 @@ export const Home = () => {
       <FeaturedSection/>
       <FeaturedSection/>
       <FeaturedSection/>
+      <Footer/>
       
 
     </div>

@@ -1,5 +1,5 @@
 import styles from "./styles.css";
-import imgOne from '../../images/sky-img-abt-01.jpg';
+import imgOne from '../../images/gjr-img-02.jpg';
 
 export const FeaturedSection = () => {
   return (
@@ -8,6 +8,7 @@ export const FeaturedSection = () => {
         <div className="featured-card">
           <div className="image-box">
             <img src={imgOne} alt="featured_img"></img>
+      
             </div>
           <div className="text-box">
             <p>BEGIN YORU JOURNEY</p>
