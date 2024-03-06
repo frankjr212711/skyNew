@@ -146,7 +146,22 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
     .menuBtn {
         display: block;
+    }
+    .top-bar {
+      display: none;
+    }
+    .mainBar nav {
+      display: none;
+    }
+    .mainBar {
+      position: fixed;
+      background: white;
+    }
+
+    .mainBar .logoWrap {
+      color: #111;
     }
 }

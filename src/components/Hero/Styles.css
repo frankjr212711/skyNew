@@ -41,22 +41,22 @@ video {
 }
 .heroContentWrap {
   position: absolute;
-  top: 80%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
   height: 80%;
-
   z-index: 999;
 }
 .heroText {
   width: 100%;
-  height: 100%;
+  height:inherit;
 }
 .heroContent h1 {
   font-size: 4.5rem;
   color: whitesmoke;
   margin: 1rem 0;
+  line-height: 1;
 }
 .heroContent p {
   font-size: 2rem;
