@@ -51,8 +51,10 @@ export const Header = () => {
                 <a href="/skywalker">Skywalker</a>
 
                 <div className="mega-dropdown">
-                  <div className="mega-dropdown-wrap">
-                   
+                <div className="mega-dropdown-wrap">
+                   <div className="item"></div>
+                   <div className="item"></div>
+                   <div className="item"></div>
                   </div>
                 </div>
               </li>
@@ -60,7 +62,9 @@ export const Header = () => {
                 <a href="/gjr">GJR Works</a>
                 <div className="mega-dropdown">
                   <div className="mega-dropdown-wrap">
-                   
+                   <div className="item"></div>
+                   <div className="item"></div>
+                   <div className="item"></div>
                   </div>
                 </div>
                
@@ -68,8 +72,10 @@ export const Header = () => {
               <li className="link">
                 <a href="/librex">Librex Holdings</a>
                 <div className="mega-dropdown">
-                  <div className="mega-dropdown-wrap">
-                   
+                <div className="mega-dropdown-wrap">
+                   <div className="item"></div>
+                   <div className="item"></div>
+                   <div className="item"></div>
                   </div>
                 </div>
 

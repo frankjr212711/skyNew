@@ -144,7 +144,7 @@ body {
   top: 150px;
   left: 0%;
   width: 100%;
-  height: 340px;
+  height: 280px;
   background: #fff;
   visibility: hidden;
   opacity: 0;
@@ -153,8 +153,8 @@ body {
 }
 .mega-dropdown-wrap {
   width: 80%;
-  height: 100%;
-  margin: 0 auto;
+  height: 95%;
+  margin: 7px auto;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -181,6 +181,9 @@ h2 {
   visibility: visible;
 }
 
+.mega-dropdown-wrap .item {
+  border: 1px solid #ddd;
+}
 @media screen and (max-width: 768px) {
   .menuBtn {
     display: block;
