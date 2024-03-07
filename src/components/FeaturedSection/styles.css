@@ -4,6 +4,7 @@
     width: 100%;
     padding: 5rem 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background: #eee;
 }
 .featured-section .featuredWrap {
     width: 95%;
