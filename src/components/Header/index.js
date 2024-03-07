@@ -32,62 +32,55 @@ export const Header = () => {
               </li>
             </ul>
           </nav>
-          {/* <a href="#" id="show-search-btn" title="toggle">
-            <span>Search</span>
-          </a> */}
+        
         </div>
         <div className="mainBar">
           <div className="mainBarWrap">
             <div className="inner">
-              
-            
-            <a href="/" className="logoWrap">
-              <span>{/* <img src={Logo} alt=""/> */}</span>
-              <span>LOGO</span>
-            </a>
+              <a href="/" className="logoWrap">
+                <span>{/* <img src={Logo} alt=""/> */}</span>
+                <span>LOGO</span>
+              </a>
+             
+              <ul>
+                <li className="link">
+                  <a href="/skywalker">Skywalker</a>
 
-            <ul>
-              <li className="link">
-                <a href="/skywalker">Skywalker</a>
-
-                <div className="mega-dropdown">
-                <div className="mega-dropdown-wrap">
-                   <div className="item"></div>
-                   <div className="item"></div>
-                   <div className="item"></div>
+                  <div className="mega-dropdown">
+                    <div className="mega-dropdown-wrap">
+                      <div className="item"></div>
+                      <div className="item"></div>
+                      <div className="item"></div>
+                    </div>
                   </div>
-                </div>
-              </li>
-              <li className="link">
-                <a href="/gjr">GJR Works</a>
-                <div className="mega-dropdown">
-                  <div className="mega-dropdown-wrap">
-                   <div className="item"></div>
-                   <div className="item"></div>
-                   <div className="item"></div>
+                </li>
+                <li className="link">
+                  <a href="/gjr">GJR Works</a>
+                  <div className="mega-dropdown">
+                    <div className="mega-dropdown-wrap">
+                      <div className="item"></div>
+                      <div className="item"></div>
+                      <div className="item"></div>
+                    </div>
                   </div>
-                </div>
-               
-              </li>
-              <li className="link">
-                <a href="/librex">Librex Holdings</a>
-                <div className="mega-dropdown">
-                <div className="mega-dropdown-wrap">
-                   <div className="item"></div>
-                   <div className="item"></div>
-                   <div className="item"></div>
+                </li>
+                <li className="link">
+                  <a href="/librex">Librex Holdings</a>
+                  <div className="mega-dropdown">
+                    <div className="mega-dropdown-wrap">
+                      <div className="item"></div>
+                      <div className="item"></div>
+                      <div className="item"></div>
+                    </div>
                   </div>
-                </div>
+                </li>
+              </ul>
 
-               
-              </li>
-            </ul>
-
-            <div className="menuBtn">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
+              <div className="menuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
             </div>
           </div>
         </div>
