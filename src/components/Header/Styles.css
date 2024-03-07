@@ -38,7 +38,7 @@ body {
 }
 .mainBar {
   width: 100%;
-  height: 80px;
+  height: 100px;
   /* background: rgba(255, 255, 255, .3); */
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
@@ -52,7 +52,7 @@ body {
 .mainBarWrap .inner {
   width: 80%;
   margin: auto;
-  height: 80px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -73,7 +73,7 @@ body {
 .mainBarWrap .link a::after {
   content: "";
   position: absolute;
-  top: 45px;
+  top: 50px;
   left: 50%;
   transform: translateX(-50%);
   height: 6px;
