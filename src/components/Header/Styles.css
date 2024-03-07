@@ -57,13 +57,16 @@ body {
   position: relative;
 }
 
-.mainBarWrap nav ul li {
+
+.mainBarWrap .link {
   display: inline-block;
   position: relative;
-  height: 100%;
-  padding: 0 1.5rem;
+  /* height: 104px; */
+
+  padding: 40px 1.5rem;
+  /* border: 1px solid red; */
 }
-.mainBarWrap nav ul li::after {
+.mainBarWrap .link::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -74,19 +77,23 @@ body {
   background: #e71c31;
   transition: 0.3s ease;
 }
-.mainBarWrap nav ul li:hover::after {
+.mainBarWrap .link:hover::after {
   width: 100%;
 }
-.mainBarWrap nav ul li a {
-  height: 104px;
+
+
+
+.mainBarWrap .link a {
+  /* height: 104px; */
   display: inline-block;
-  line-height: 104px;
-  padding: 0 1rem;
+  /* line-height: 104px; */
+  /* padding: 104px 1rem; */
   color: #fff;
   font-weight: 700;
   position: relative;
+  /* border: 1px solid red; */
 }
-.mainBarWrap nav ul li:not(:last-child):before {
+.mainBarWrap .link:not(:last-child):before {
   content: "";
   position: absolute;
   top: 50%;
@@ -96,11 +103,11 @@ body {
   height: 20px;
   background: white;
 }
-.mainBar:hover .mainBarWrap nav ul li::before {
+.mainBar:hover .mainBarWrap .link::before {
   background: #111;
   transition: 0.3s ease;
 }
-.mainBar:hover .mainBarWrap nav ul li a {
+.mainBar:hover .mainBarWrap .link a {
   color: #111;
   transition: 0.3s ease;
 }
@@ -144,6 +151,64 @@ body {
   /* width: 30px; */
   transform: translate(-50%, -50%) rotate(-360deg);
 }
+
+.mega-dropdown {
+  position: absolute;
+  top: 100.5%;
+  left: -100%;
+  transform: translateX(-50%);
+  
+
+
+  height: 354px;
+  background: white;
+
+  border-top: 1px solid #eee;
+  visibility: hidden;
+  opacity: 0;
+  /* transition: .3s ease; */
+
+}
+
+.mega-dropdown-wrap {  
+  /* max-width: 1500px; */
+  width: 1500px;
+  height: 100%;
+  padding: 4.5rem 10rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ 
+}
+
+.mega-dropdown-wrap ul li a, h2 {
+ color: #111 !important;
+}
+.mega-dropdown-wrap button {
+  font-size: 20px;
+  margin: 2rem 0;
+  padding: .5rem 1rem;
+  border: none;
+  outline: none;
+  background: red !important;
+
+}
+
+
+
+
+.mega-dropdown-wrap .link:hover {
+  top: 100%;
+  visibility: visible;
+  opacity: 1;
+}
+.mainBarWrap li:hover .mega-dropdown {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
 
 @media screen and (max-width: 768px) {
 
