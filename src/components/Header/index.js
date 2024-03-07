@@ -42,120 +42,114 @@ export const Header = () => {
               <span>{/* <img src={Logo} alt=""/> */}</span>
               <span>LOGO</span>
             </a>
-          
-              <ul>
-                <li className="link">
-                  <a href="/skywalker">Skywalker</a>
 
-                  <div className="mega-dropdown">
-                    <div className="mega-dropdown-wrap mw1024">
-                      <div className="visit">
-                        <h2>
-                          Learn how to apply and begin your studies at
-                          Uwinnipeg.
-                        </h2>
-                        <button>
-                          <a href="/skywalker">LEARN MORE</a>
-                        </button>
-                      </div>
-                      <div>
-                        <ul>
-                          <li>
-                            <a href="#">Sachet Water</a>
-                          </li>
-                          <li>
-                            <a href="#">Bottle Water</a>
-                          </li>
-                          <li>
-                            <a href="#">Dispenser Bottles</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div>
-                        <a href="#">Related Links</a>
-                        <a href="#">Related Links</a>
-                        <a href="#">Related Links</a>
-                      </div>
+            <ul>
+              <li className="link">
+                <a href="/skywalker">Skywalker</a>
+
+                <div className="mega-dropdown">
+                  <div className="mega-dropdown-wrap mw1024">
+                    <div className="visit">
+                      <h2>
+                        Learn how to apply and begin your studies at Uwinnipeg.
+                      </h2>
+                      <button>
+                        <a href="/skywalker">LEARN MORE</a>
+                      </button>
+                    </div>
+                    <div>
+                      <ul>
+                        <li>
+                          <a href="#">Sachet Water</a>
+                        </li>
+                        <li>
+                          <a href="#">Bottle Water</a>
+                        </li>
+                        <li>
+                          <a href="#">Dispenser Bottles</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div>
+                      <a href="#">Related Links</a>
+                      <a href="#">Related Links</a>
+                      <a href="#">Related Links</a>
                     </div>
                   </div>
-                </li>
-                <li className="link">
-                  <a href="/gjr">GJR Works</a>
-                  <div className="mega-dropdown">
-                    <div className="mega-dropdown-wrap mw1024">
-                      <div>
-                        <h2>
-                          Learn how to apply and begin your studies at
-                          Uwinnipeg.
-                        </h2>
-                        <button>
-                          <a href="/gjr">LEARN MORE</a>
-                        </button>
-                      </div>
-                      <div>
-                        <ul>
-                          <li>
-                            <a href="#">Sachet Water</a>
-                          </li>
-                          <li>
-                            <a href="#">Bottle Water</a>
-                          </li>
-                          <li>
-                            <a href="#">Dispenser Bottles</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div>
-                        <a href="#">Related Links</a>
-                        <a href="#">Related Links</a>
-                        <a href="#">Related Links</a>
-                      </div>
-
+                </div>
+              </li>
+              <li className="link">
+                <a href="/gjr">GJR Works</a>
+                <div className="mega-dropdown">
+                  <div className="mega-dropdown-wrap mw1024">
+                    <div>
+                      <h2>
+                        Learn how to apply and begin your studies at Uwinnipeg.
+                      </h2>
+                      <button>
+                        <a href="/gjr">LEARN MORE</a>
+                      </button>
+                    </div>
+                    <div>
+                      <ul>
+                        <li>
+                          <a href="#">Sachet Water</a>
+                        </li>
+                        <li>
+                          <a href="#">Bottle Water</a>
+                        </li>
+                        <li>
+                          <a href="#">Dispenser Bottles</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div>
+                      <a href="#">Related Links</a>
+                      <a href="#">Related Links</a>
+                      <a href="#">Related Links</a>
                     </div>
                   </div>
-                </li>
-                <li className="link">
-                  <a href="/librex">Librex Holdings</a>
+                </div>
+              </li>
+              <li className="link">
+                <a href="/librex">Librex Holdings</a>
 
-                  <div className="mega-dropdown">
-                    <div className="mega-dropdown-wrap mw1024">
-                      <div className="mega-text-box">
-                        <h2>
-                          Learn how to apply and begin your studies at
-                          Uwinnipeg.
-                        </h2>
-                        <button>
-                          <a href="/skywalker">LEARN MORE</a>
-                        </button>
-                      </div>
-                      <div className="mega-items">
-                        <ul>
-                          <li>
-                            <a href="#">Crytello</a>
-                          </li>
-                          <li>
-                            <a href="#">Pamello</a>
-                          </li>
-                          <li>
-                            <a href="#">Waterello</a>
-                          </li>
-                          <li>
-                            <a href="#">Rite</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div>
-                        <a href="#">Related Links</a>
-                        <a href="#">Related Links</a>
-                        <a href="#">Related Links</a>
-                      </div>
-
+                <div className="mega-dropdown">
+                  <div className="mega-dropdown-wrap mw1024">
+                    <div className="mega-text-box">
+                      <h2>
+                        Learn how to apply and begin your studies at Uwinnipeg.
+                      </h2>
+                      <button>
+                        <a href="/skywalker">LEARN MORE</a>
+                      </button>
+                    </div>
+                    <div className="mega-items">
+                      <ul>
+                        <li>
+                          <a href="#">Crytello</a>
+                        </li>
+                        <li>
+                          <a href="#">Pamello</a>
+                        </li>
+                        <li>
+                          <a href="#">Waterello</a>
+                        </li>
+                        <li>
+                          <a href="#">Rite</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div>
+                      <a href="#">Related Links</a>
+                      <a href="#">Related Links</a>
+                      <a href="#">Related Links</a>
                     </div>
                   </div>
+                </div>
+              </li>
+            </ul>
 
-                </li>
-              </ul>
-           
             <div className="menuBtn">
               <span></span>
               <span></span>

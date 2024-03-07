@@ -57,7 +57,6 @@ body {
   position: relative;
 }
 
-
 .mainBarWrap .link {
   display: inline-block;
   position: relative;
@@ -65,6 +64,7 @@ body {
 
   padding: 40px 1.5rem;
   /* border: 1px solid red; */
+  cursor: pointer;
 }
 .mainBarWrap .link::after {
   content: "";
@@ -80,7 +80,6 @@ body {
 .mainBarWrap .link:hover::after {
   width: 100%;
 }
-
 
 
 .mainBarWrap .link a {
@@ -151,34 +150,27 @@ body {
   /* width: 30px; */
   transform: translate(-50%, -50%) rotate(-360deg);
 }
-
 .mega-dropdown {
   position: absolute;
-  top: 100.5%;
-  left: -100%;
-  transform: translateX(-50%);
-  
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #fff;
 
+  box-shadow: 0 23px 23px -21px rgba(0, 0, 0, 0.3);
+  z-index: -99;
 
-  height: 354px;
-  background: white;
-
-  border-top: 1px solid #eee;
   visibility: hidden;
   opacity: 0;
-  transition: .2s ease;
+  
 
 }
-
 .mega-dropdown-wrap {  
-  /* max-width: 1500px; */
-  width: 1500px;
-  height: 100%;
-  padding: 4.5rem 10rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
- 
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+
 }
+
 
 .mega-dropdown-wrap ul li a, h2 {
  color: #111 !important;
@@ -190,12 +182,7 @@ body {
   border: none;
   outline: none;
   background: red !important;
-
 }
-
-
-
-
 .mega-dropdown-wrap .link:hover {
   top: 100%;
   visibility: visible;
@@ -207,11 +194,7 @@ body {
 }
 
 
-
-
-
 @media screen and (max-width: 768px) {
-
     .menuBtn {
         display: block;
     }
@@ -226,7 +209,6 @@ body {
       background: white;
       box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
     }
-
     .mainBar .logoWrap {
       color: #111;
     }

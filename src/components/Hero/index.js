@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Styles from "./Styles.css";
-import Video from "../../videos/video-3.mp4";
+import Video from "../../videos/video-5.mp4";
 
 export const Hero = () => {
   return (

@@ -1,5 +1,6 @@
 import styles from "./styles.css";
 import imgOne from '../../images/gjr-img-02.jpg';
+import videoOne from '../../videos/video-7.mp4';
 
 export const FeaturedSection = () => {
   return (
@@ -7,7 +8,7 @@ export const FeaturedSection = () => {
       <div className="featuredWrap">
         <div className="featured-card">
           <div className="image-box">
-            <img src={imgOne} alt="featured_img"></img>
+            <video autoPlay loop muted src={videoOne} type="video/mp4"></video>
       
             </div>
           <div className="text-box">
