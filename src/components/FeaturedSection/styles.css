@@ -13,6 +13,7 @@
 .featured-card {
     width: 100%; 
     display: grid;
+    align-items: center;
     grid-template-columns: repeat(2, 1fr);
     gap: 60px;
 }
