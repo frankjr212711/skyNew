@@ -7,23 +7,21 @@
   width: 80%;
   height: 100%;
   margin: 2rem auto;
-
   position: relative;
-
   display: flex;
-  /* align-items: center; */
   justify-content: center;
-
-  
 }
-
 .introText {
   text-align: center;
   max-width: 730px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .introText h1 {
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   font-size: 4rem;
   line-height: 1.5;
   letter-spacing: 1px;
@@ -33,5 +31,4 @@
   font-family: verdana;
   line-height: 1.8;
   letter-spacing: 1px;
-
 }
