@@ -7,7 +7,7 @@
     background: #eee;
 }
 .featured-section .featuredWrap {
-    width: 95%;
+    width: 90%;
     margin: 0 auto; 
 }
 .featured-card {
@@ -15,7 +15,7 @@
     display: grid;
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
-    gap: 60px;
+    gap: 40px;
 }
 .featured-card img {
     width: 100%;
