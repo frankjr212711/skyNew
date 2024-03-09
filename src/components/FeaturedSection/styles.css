@@ -28,13 +28,17 @@
     width: 100%;
     display: flex;
 }
+.featured-card .text-box {
+    padding: 3rem 0 3rem 0;
+}
 .featured-card .text-box h1 {
-    margin: 1rem 0;
+    padding: 2rem 0;
     font-size: 4rem;
     letter-spacing: 1px;
 }
 .featured-card .text-box  p{
     font-size: 20px;
+
     font-family: verdana;
     line-height: 1.8;
     letter-spacing: 1px;
