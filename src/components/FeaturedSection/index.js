@@ -7,6 +7,7 @@ export const FeaturedSection = () => {
     <div className="featured-section">
       <div className="featuredWrap">
         <div className="featured-card">
+          
           <div className="image-box">
             <video autoPlay loop muted src={videoOne} type="video/mp4"></video>
       
