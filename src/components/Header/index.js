@@ -36,6 +36,7 @@ export const Header = () => {
         <div className="mainBar">
           <div className="mainBarWrap">
             <div className="inner">
+              <div className="inner-wrap">
               <a href="/" className="logo">
                 <span>{/* <img src={Logo} alt=""/> */}</span>
                 <span>LOGO</span>
@@ -47,7 +48,7 @@ export const Header = () => {
 
                   <div className="mega-dropdown">
                     <div className="mega-dropdown-wrap">
-                      
+
                     </div>
                   </div>
                 </li>
@@ -69,6 +70,7 @@ export const Header = () => {
                 <span></span>
                 <span></span>
                 <span></span>
+              </div>
               </div>
             </div>
           </div>
