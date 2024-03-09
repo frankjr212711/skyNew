@@ -25,12 +25,12 @@
     gap: 40px;
 }
 .featured-card .image-box video {
-    grid-column: span 2;
     width: 100%;
     display: flex;
 }
 .featured-card .text-box {
     padding: 3rem 0 3rem 0;
+    grid-column: span 2;
 }
 .featured-card .text-box h1 {
     padding: 2rem 0;
