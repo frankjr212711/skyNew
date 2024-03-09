@@ -1,0 +1,18 @@
+
+.lib-content {
+    margin-top: 150px;
+    padding-top: 3rem;
+    width: 100%; 
+    background: #f9f9f9;
+
+}
+.lib-content-wrap {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+}
+.lib-inner {
+    width: 80%;
+    padding: 3rem 0;
+    margin: 0 auto;
+}

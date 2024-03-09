@@ -1,0 +1,191 @@
+.website-header {
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  width: 100%;
+  font-family: "Montserrat";
+}
+.top-bar {
+  background: #e71c31;
+}
+.top-bar nav {
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-bar nav ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.top-bar nav ul li a {
+  color: #fff;
+  padding: 0.2rem 0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+.top-bar nav ul li a:hover {
+  border-bottom: 1px solid rgba(255, 255, 255);
+  transition: 0.3s ease;
+}
+
+/* MAINBAR */
+.mainBar {
+  width: 100%;
+  height: 104px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  background: #fff;
+}
+
+.mainBarWrap {
+  width: 100%;
+  height: 100%;
+}
+.mainBarWrap .logo {
+  color: #000;
+}
+
+
+.mainBarWrap .inner {
+  width: 100%;
+  height: 100%;
+  /* padding: 0 7rem; */
+}
+.mainBarWrap .inner .inner-wrap {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+.mainBarWrap .inner ul {
+  height: 104px;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.mainBarWrap .inner ul > li {
+  display: inline-block;
+  /* padding: 0 1rem; */
+  height: inherit;
+  line-height: 104px;
+  /* border: 1px solid red; */
+}
+
+.mainBarWrap .inner ul > li > a {
+  color: #000;
+  height: 104px;
+  display: inline-block;
+  padding: 0 1rem;
+  font-weight: 600;
+  position: relative;
+  /* border: 1px solid red; */
+}
+.mainBarWrap .inner ul > li > a::before {
+  content: "";
+  position: absolute;
+  top: 95%;
+  left: 0;
+  height: 6px;
+  width: 0%;
+  background: #f00;
+  transition: 0.3s ease;
+}
+.mainBarWrap .inner ul > li > a:hover::before {
+  width: 100%;
+}
+.mainBarWrap .inner ul > li > a::after {
+}
+
+/* MEGA-DROPDOWN */
+.mainBarWrap .inner ul > li .mega-dropdown {
+  position: absolute;
+  top: 154px;
+  left: 0;
+  width: 100%;
+  height: 370px;
+  padding: 1rem 0;
+  background: whitesmoke;
+  background: #fff;
+  visibility: hidden;
+  opacity: 0;
+  border-top: 1px solid #eee;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  transition: .3s ease;
+}
+
+.mainBarWrap .inner ul > li:hover .mega-dropdown {
+  visibility: visible;
+  opacity: 1;
+}
+
+.mainBarWrap .inner ul > li .mega-dropdown .mega-dropdown-wrap {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  border: 1px solid #eee;
+}
+
+/* MENUBTN */
+.menuBtn {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  position: relative;
+  display: none;
+}
+.menuBtn span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: red;
+  width: 35px;
+  height: 6px;
+  transition: 1s ease;
+}
+.menuBtn span:nth-child(1) {
+  top: 30%;
+}
+.menuBtn span:nth-child(3) {
+  top: 70%;
+}
+.menuBtn:hover span:nth-child(1) {
+  /* width: 30px; */
+  transform: translate(-50%, -50%) rotate(360deg);
+}
+.menuBtn:hover span:nth-child(3) {
+  /* width: 30px; */
+  transform: translate(-50%, -50%) rotate(-360deg);
+}
+
+@media screen and (max-width: 768px) {
+  .menuBtn {
+    display: block;
+  }
+  .top-bar {
+    display: none;
+  }
+
+  .mainBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  }
+  .mainBarWrap .inner ul {
+    display: none;
+  }
+  .mainBar .logoWrap {
+    color: #111;
+  }
+}
