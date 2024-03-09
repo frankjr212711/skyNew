@@ -20,6 +20,10 @@ export const FeaturedSection = () => {
               neighborhood, UWinnepeg is the place to begin. With more than 50
               programs to choose from, there's something for everyone.
             </p>
+
+            <button className="featuredBtn">
+              <a href="#">LEARN MORE</a>
+              </button>
           </div>
         </div>
       </div>
