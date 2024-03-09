@@ -2,11 +2,12 @@
 
 .featured-section {
     width: 100%;
-    height: 60vh;
+    min-height: 60vh;
     background: #eee;
     padding: .25rem;
     display: flex;
     align-items: center;
+    border: 1px solid red;
 }
 .featured-section .featuredWrap {
     width: 95%;

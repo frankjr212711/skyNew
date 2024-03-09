@@ -32,46 +32,35 @@ export const Header = () => {
               </li>
             </ul>
           </nav>
-        
         </div>
         <div className="mainBar">
           <div className="mainBarWrap">
             <div className="inner">
-              <a href="/" className="logoWrap">
+              <a href="/" className="logo">
                 <span>{/* <img src={Logo} alt=""/> */}</span>
                 <span>LOGO</span>
               </a>
-             
+
               <ul>
-                <li className="link">
+                <li>
                   <a href="/skywalker">Skywalker</a>
 
                   <div className="mega-dropdown">
                     <div className="mega-dropdown-wrap">
-                      <div className="item"></div>
-                      <div className="item"></div>
-                      <div className="item"></div>
+                      
                     </div>
                   </div>
                 </li>
-                <li className="link">
+                <li>
                   <a href="/gjr">GJR Works</a>
                   <div className="mega-dropdown">
-                    <div className="mega-dropdown-wrap">
-                      <div className="item"></div>
-                      <div className="item"></div>
-                      <div className="item"></div>
-                    </div>
+                    <div className="mega-dropdown-wrap"></div>
                   </div>
                 </li>
-                <li className="link">
+                <li>
                   <a href="/librex">Librex Holdings</a>
                   <div className="mega-dropdown">
-                    <div className="mega-dropdown-wrap">
-                      <div className="item"></div>
-                      <div className="item"></div>
-                      <div className="item"></div>
-                    </div>
+                    <div className="mega-dropdown-wrap"></div>
                   </div>
                 </li>
               </ul>
