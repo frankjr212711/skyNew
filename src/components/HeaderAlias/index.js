@@ -33,11 +33,11 @@ export const HeaderAlias = () => {
             </ul>
           </nav>
         </div>
-        <div className="mainBar">
-          <div className="mainBarWrap">
-            <div className="inner">
-              <div className="inner-wrap">
-              <a href="/" className="logo">
+        <div className="mainBarAnnex">
+          <div className="mainBarWrapAnnex">
+            <div className="innerAnnex">
+              <div className="inner-wrapAnnex">
+              <a href="/" className="logoAnnex">
                 <span>{/* <img src={Logo} alt=""/> */}</span>
                 <span>LOGO</span>
               </a>
@@ -46,22 +46,22 @@ export const HeaderAlias = () => {
                 <li>
                   <a href="/skywalker">Skywalker</a>
 
-                  <div className="mega-dropdown">
-                    <div className="mega-dropdown-wrap">
+                  <div className="mega-dropdown-annex">
+                    <div className="mega-dropdown-wrap-annex">
 
                     </div>
                   </div>
                 </li>
                 <li>
                   <a href="/gjr">GJR Works</a>
-                  <div className="mega-dropdown">
-                    <div className="mega-dropdown-wrap"></div>
+                  <div className="mega-dropdown-annex">
+                    <div className="mega-dropdown-wrap-annex"></div>
                   </div>
                 </li>
                 <li>
                   <a href="/librex">Librex Holdings</a>
-                  <div className="mega-dropdown">
-                    <div className="mega-dropdown-wrap"></div>
+                  <div className="mega-dropdown-annex">
+                    <div className="mega-dropdown-wrap-annex"></div>
                   </div>
                 </li>
               </ul>
