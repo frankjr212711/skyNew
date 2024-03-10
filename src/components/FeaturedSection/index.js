@@ -1,6 +1,6 @@
 import styles from "./styles.css";
 import imgOne from '../../images/gjr-img-02.jpg';
-import videoOne from '../../videos/video-5.mp4';
+import videoOne from '../../videos/video-3.mp4';
 
 export const FeaturedSection = () => {
   return (

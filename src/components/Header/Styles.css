@@ -90,7 +90,7 @@
   color: #fff;
   height: 104px;
   display: inline-block;
-  padding: 0 1rem;
+  padding: 0 2.5rem;
   font-weight: 600;
   position: relative;
   /* border: 1px solid red; */
@@ -109,6 +109,17 @@
   width: 100%;
 }
 .mainBarWrap .inner ul > li > a::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 15%;
+  background: #fff;
+}
+.mainBarWrap:hover .inner ul > li > a::after {
+  background: #000
 }
 
 /* MEGA-DROPDOWN */
@@ -119,13 +130,12 @@
   width: 100%;
   height: 370px;
   padding: 1rem 0;
-  background: whitesmoke;
   background: #fff;
   visibility: hidden;
   opacity: 0;
   border-top: 1px solid #eee;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 .mainBarWrap .inner ul > li:hover .mega-dropdown {
