@@ -13,8 +13,8 @@ export const FeaturedSection = () => {
       
             </div>
           <div className="text-box">
-            <p>BEGIN YORU JOURNEY</p>
-            <h1>Undergraduate Studies</h1>
+            <p>GET YOUR MODERN HOME </p>
+            <h1>CONTEMPORY DESIGNS & CONCEPTS</h1>
             <p>
               Whether you want to change the world or nurture your own
               neighborhood, UWinnepeg is the place to begin. With more than 50

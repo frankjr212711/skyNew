@@ -10,7 +10,7 @@ export const IntroSection = () => {
        
         <p>DISCOVER THE POSIBILITIES</p>
 
-        <h1>Study at UWinnipeg</h1>
+        <h1>HOME IS WHERE THE HEART IS!</h1>
 
         <p>
           No one wants to be considered just a number. Thanks to our small class
