@@ -54,7 +54,7 @@ export const Header = () => {
                             Skywalker
                           </h2>
                           <button>
-                            <a href="">Visit Page</a>
+                            <a href="/skywalker">Visit Page</a>
                           </button>
                         </span>
                         <span>
@@ -103,7 +103,7 @@ export const Header = () => {
                             Skywalker
                           </h2>
                           <button>
-                            <a href="">Visit Page</a>
+                            <a href="/gjr">Visit Page</a>
                           </button>
                         </span>
                         <span>
@@ -164,7 +164,7 @@ export const Header = () => {
                             Skywalker
                           </h2>
                           <button>
-                            <a href="">Visit Page</a>
+                            <a href="/librex">Visit Page</a>
                           </button>
                         </span>
                         <span>
