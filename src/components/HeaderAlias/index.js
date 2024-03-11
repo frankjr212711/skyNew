@@ -168,7 +168,7 @@ export const HeaderAlias = () => {
                             Skywalker
                           </h2>
                           <button>
-                            <a href="/librex">Visit Page</a>
+                            <a href="/librex" className="link">Visit Page</a>
                           </button>
                         </span>
                         <span>

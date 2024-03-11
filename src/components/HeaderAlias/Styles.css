@@ -5,10 +5,11 @@
   left: 0;
   z-index: 10000;
   width: 100%;
-  font-family: "Montserrat";
+  font-family: "Jost";
 }
 .top-bar {
   background: #e71c31;
+  background: #000044;
 }
 .top-bar nav {
   width: 80%;
@@ -40,8 +41,6 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
-
-
 .mainBarWrapAnnex {
   width: 100%;
   height: 100%;
@@ -51,6 +50,7 @@
 }
 .mainBarWrapAnnex .innerAnnex ul li a {
   color: #111 !important;
+  display: inline-block;
 }
  
 .mainBarWrapAnnex .innerAnnex ul li a:hover {
@@ -85,7 +85,6 @@
   transition: .3s ease;
 }
 .mainBarWrapAnnex .innerAnnex ul li a {
-  color: #fff;
   display: inline-block;
   padding: 0 2.5rem;
   font-weight: 600;
@@ -165,7 +164,7 @@
 
 .mega-dropdown-wrap-annex button {
   margin: 2rem 0;
-  padding: 0.5rem;
+  padding: 0.6rem;
   font-size: 16px;
   background: red;
   border: none;
@@ -173,11 +172,13 @@
   font-weight: 600;
   cursor: pointer;
   position: relative;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
 }
 
-.mega-dropdown-annex .mega-dropdown-wrap-annex button a {
+ .mega-dropdown-wrap-annex button a {
   position: relative;
-  color: #fff;
+  color: #fff !important;
+  display: inline-block;
   transition: 0.3s ease;
   z-index: 9999;
 }
@@ -196,7 +197,6 @@
 }
 .mega-dropdown-wrap-annex button:hover::before {
   width: 101%;
-  height: 101%;
 }
 .mega-dropdown-annex .mega-dropdown-wrap-annex span {
   padding: 1rem 1rem 1rem 0;
@@ -222,19 +222,19 @@
   transition: .3s ease;
 }
 
-.mega-dropdown-annex .mega-dropdown-wrap-annex span ul li a:hover {
+.mega-dropdown-wrap-annex span ul li a:hover {
   color: red !important;
   padding: 0.5rem 0 0.5rem 1rem;
 }
 
-.mega-dropdown-annex .mega-dropdown-annex .mega-dropdown-wrap-annex span ul {
+.mega-dropdown-annex .mega-dropdown-wrap-annex span ul {
   height: inherit;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 .mega-dropdown-annex .mega-dropdown-wrap-annex span ul li {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #eee;
   transition: .3s ease;
 }
 .mega-dropdown-annex .mega-dropdown-wrap-annex span ul li:hover {
