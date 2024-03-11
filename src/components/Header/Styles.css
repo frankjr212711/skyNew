@@ -130,7 +130,7 @@
 .mainBarWrap .inner ul li .mega-dropdown {
   position: absolute;
   top: 154px;
-  left: 0;
+  left: -10%;
   width: 100%;
   height: 270px;
   padding: 1rem 0;
@@ -141,6 +141,8 @@
   transition: 0.3s ease;
 }
 .mainBarWrap .inner ul li:hover .mega-dropdown {
+  top: 154px;
+  left: 0;
   visibility: visible;
   opacity: 1;
 }
