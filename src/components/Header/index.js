@@ -64,6 +64,13 @@ export const Header = () => {
                     <div className="mega-dropdown-wrap"></div>
                   </div>
                 </li>
+                {/* <li>
+                  <a href="">About</a>
+                  <div className="mega-dropdown">
+                    <div className="mega-dropdown-wrap"></div>
+                  </div>
+                  
+                  </li> */}
               </ul>
 
               <div className="menuBtn">
