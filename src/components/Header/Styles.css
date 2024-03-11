@@ -40,7 +40,6 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
-
 .mainBar:hover {
   background: #fff;
   transition: 0.4s ease;
@@ -58,7 +57,6 @@
 .mainBarWrap:hover .inner ul li a {
   color: #000;
 }
-
 .mainBarWrap .inner ul li a:hover {
   color: #f00;
 }
@@ -76,7 +74,6 @@
   justify-content: space-between;
   /* border: 1px solid red; */
 }
-
 .mainBarWrap .inner ul li {
   display: inline-block;
   height: inherit;
@@ -96,13 +93,11 @@
   padding: 0 2.5rem;
   font-weight: 600;
   position: relative;
-
 }
-
 .mainBarWrap .inner ul li a::before {
   content: "";
   position: absolute;
-  top: 57px;
+  top: 58px;
   left: 0;
   height: 6px;
   width: 0%;
@@ -112,25 +107,13 @@
 .mainBarWrap .inner ul li a:hover::before {
   width: 100%;
 }
-/* .mainBarWrap .inner ul li a::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  width: 3px;
-  height: 15%;
-  background: #fff;
-}
-.mainBarWrap:hover .inner ul li a::after {
-  background: #000
-} */
+
 
 /* MEGA-DROPDOWN */
 .mainBarWrap .inner ul li .mega-dropdown {
   position: absolute;
   top: 154px;
-  left: -10%;
+  left: -5%;
   width: 100%;
   height: 270px;
   padding: 1rem 0;
@@ -156,7 +139,6 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
-
 .mega-dropdown .mega-dropdown-wrap a::before {
   display: none;
 }
@@ -167,24 +149,18 @@
   padding: 0;
   margin: 0;
   color: #111;
-  font-size: 14px;
+  font-size: 18px;
 }
 .mega-dropdown-wrap h3 {
   padding: 0;
   margin: 0 0 1rem 0;
   color: #424242;
   color: #f00;
-  font-size: 14px;
+  font-size: 16px;
 }
-.mega-dropdown-wrap button {
-  background: red;
-  border: none;
-  outline: none;
-}
-
 .mega-dropdown-wrap button {
   margin: 2rem 0;
-  padding: 0.5rem;
+  padding: 0.8rem;
   font-size: 16px;
   background: red;
   border: none;
@@ -193,16 +169,12 @@
   cursor: pointer;
   position: relative;
 }
-
 .mega-dropdown-wrap button a {
   position: relative;
   z-index: 9999;
   color: #fff !important;
   transition: 0.3s ease;
 }
-/* .mega-dropdown-wrap button:hover a {
-  color: #fff;
-} */
 .mega-dropdown-wrap button::before {
   content: "";
   position: absolute;
@@ -228,7 +200,6 @@
 .mega-dropdown .mega-dropdown-wrap span:nth-child(4) ul li {
   border-bottom: none;
 }
-
 .mainBarWrap:hover .inner ul li .mega-dropdown-wrap span ul li {
   color: #000;
   border-right: none

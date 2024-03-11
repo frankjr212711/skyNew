@@ -41,11 +41,9 @@ export const Header = () => {
                   <span>{/* <img src={Logo} alt=""/> */}</span>
                   <span>LOGO</span>
                 </a>
-
                 <ul>
                   <li>
                     <a href="/skywalker">Skywalker</a>
-
                     <div className="mega-dropdown">
                       <div className="mega-dropdown-wrap">
                         <span>
@@ -80,11 +78,14 @@ export const Header = () => {
                           </ul>
                         </span>
                         <span>
-                        <h3>Contact Details</h3>
-                        <ul>
-                           
-                            <li><a href="">Natural Mineral Water</a></li>
-                            <li><a href="">Sachet Water</a></li>
+                          <h3>Contact Details</h3>
+                          <ul>
+                            <li>
+                              <a href="">Natural Mineral Water</a>
+                            </li>
+                            <li>
+                              <a href="">Sachet Water</a>
+                            </li>
                             <li>
                               <a href="">Dispenser Bottles</a>
                             </li>
@@ -127,7 +128,7 @@ export const Header = () => {
                             <li>
                               <a href="">Plumbing Works</a>
                             </li>
-                         
+
                             <li>
                               <a href="">General Merchant</a>
                             </li>
@@ -140,16 +141,18 @@ export const Header = () => {
                           </ul>
                         </span>
                         <span>
-                        <h3>Contact Details</h3>
-                        <ul>
-                           
-                            <li><a href="">Natural Mineral Water</a></li>
-                            <li><a href="">Sachet Water</a></li>
+                          <h3>Contact Details</h3>
+                          <ul>
+                            <li>
+                              <a href="">Natural Mineral Water</a>
+                            </li>
+                            <li>
+                              <a href="">Sachet Water</a>
+                            </li>
                             <li>
                               <a href="">Dispenser Bottles</a>
                             </li>
                           </ul>
-                          
                         </span>
                       </div>
                     </div>
@@ -175,12 +178,11 @@ export const Header = () => {
                             <li>
                               <a href="">Pamello</a>
                             </li>
-                          
                           </ul>
                         </span>
                         <span>
                           <ul>
-                          <li>
+                            <li>
                               <a href="">Waterello</a>
                             </li>
                             <li>
@@ -189,11 +191,14 @@ export const Header = () => {
                           </ul>
                         </span>
                         <span>
-                        <h3>Contact Details</h3>
-                        <ul>
-                           
-                            <li><a href="">Natural Mineral Water</a></li>
-                            <li><a href="">Sachet Water</a></li>
+                          <h3>Contact Details</h3>
+                          <ul>
+                            <li>
+                              <a href="">Natural Mineral Water</a>
+                            </li>
+                            <li>
+                              <a href="">Sachet Water</a>
+                            </li>
                             <li>
                               <a href="">Dispenser Bottles</a>
                             </li>
@@ -202,13 +207,6 @@ export const Header = () => {
                       </div>
                     </div>
                   </li>
-                  {/* <li>
-                  <a href="">About</a>
-                  <div className="mega-dropdown">
-                    <div className="mega-dropdown-wrap"></div>
-                  </div>
-                  
-                  </li> */}
                 </ul>
 
                 <div className="menuBtn">
