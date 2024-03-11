@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Styles from "./Styles.css";
+import "./Styles.css";
 // import Logo  from "../../images/gjr-img-01.jpg";
 
 export const Header = () => {
@@ -37,47 +37,185 @@ export const Header = () => {
           <div className="mainBarWrap">
             <div className="inner">
               <div className="inner-wrap">
-              <a href="/" className="logo">
-                <span>{/* <img src={Logo} alt=""/> */}</span>
-                <span>LOGO</span>
-              </a>
+                <a href="/" className="logo">
+                  <span>{/* <img src={Logo} alt=""/> */}</span>
+                  <span>LOGO</span>
+                </a>
 
-              <ul>
-                <li>
-                  <a href="/skywalker">Skywalker</a>
+                <ul>
+                  <li>
+                    <a href="/skywalker">Skywalker</a>
 
-                  <div className="mega-dropdown">
-                    <div className="mega-dropdown-wrap">
-
+                    <div className="mega-dropdown">
+                      <div className="mega-dropdown-wrap">
+                        <span>
+                          <h2>
+                            Learn how to apply and begin your studies at
+                            Skywalker
+                          </h2>
+                          <button>
+                            <a href="">Visit Page</a>
+                          </button>
+                        </span>
+                        <span>
+                          <ul>
+                            <li>
+                              <a href="">Natural Mineral Water</a>
+                            </li>
+                            <li>
+                              <a href="">Sachet Water</a>
+                            </li>
+                            <li>
+                              <a href="">Dispenser Bottles</a>
+                            </li>
+                          </ul>
+                        </span>
+                        <span>
+                          <ul>
+                            {/* <li><a href="">Natural Mineral Water</a></li> */}
+                            {/* <li><a href="">Sachet Water</a></li> */}
+                            <li>
+                              <a href="">Dispenser Bottles</a>
+                            </li>
+                          </ul>
+                        </span>
+                        <span>
+                        <h3>Contact Details</h3>
+                        <ul>
+                           
+                            <li><a href="">Natural Mineral Water</a></li>
+                            <li><a href="">Sachet Water</a></li>
+                            <li>
+                              <a href="">Dispenser Bottles</a>
+                            </li>
+                          </ul>
+                        </span>
+                      </div>
                     </div>
-                  </div>
-                </li>
-                <li>
-                  <a href="/gjr">GJR Works</a>
-                  <div className="mega-dropdown">
-                    <div className="mega-dropdown-wrap"></div>
-                  </div>
-                </li>
-                <li>
-                  <a href="/librex">Librex Holdings</a>
-                  <div className="mega-dropdown">
-                    <div className="mega-dropdown-wrap"></div>
-                  </div>
-                </li>
-                {/* <li>
+                  </li>
+                  <li>
+                    <a href="/gjr">GJR Works</a>
+                    <div className="mega-dropdown">
+                      <div className="mega-dropdown-wrap">
+                        <span>
+                          <h2>
+                            Learn how to apply and begin your studies at
+                            Skywalker
+                          </h2>
+                          <button>
+                            <a href="">Visit Page</a>
+                          </button>
+                        </span>
+                        <span>
+                          <ul>
+                            <li>
+                              <a href="">Interior Designs</a>
+                            </li>
+                            <li>
+                              <a href="">General Wood Works</a>
+                            </li>
+                            <li>
+                              <a href="">Road Construction</a>
+                            </li>
+                            <li>
+                              <a href="">Building Construction</a>
+                            </li>
+                          </ul>
+                        </span>
+                        <span>
+                          <ul>
+                            <li>
+                              <a href="">Plumbing Works</a>
+                            </li>
+                         
+                            <li>
+                              <a href="">General Merchant</a>
+                            </li>
+                            <li>
+                              <a href="">Janitorial Services</a>
+                            </li>
+                            {/* <li>
+                              <a href="">Civil Works</a>
+                            </li> */}
+                          </ul>
+                        </span>
+                        <span>
+                        <h3>Contact Details</h3>
+                        <ul>
+                           
+                            <li><a href="">Natural Mineral Water</a></li>
+                            <li><a href="">Sachet Water</a></li>
+                            <li>
+                              <a href="">Dispenser Bottles</a>
+                            </li>
+                          </ul>
+                          
+                        </span>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="/librex">Librex Holdings</a>
+                    <div className="mega-dropdown">
+                      <div className="mega-dropdown-wrap">
+                        <span>
+                          <h2>
+                            Learn how to apply and begin your studies at
+                            Skywalker
+                          </h2>
+                          <button>
+                            <a href="">Visit Page</a>
+                          </button>
+                        </span>
+                        <span>
+                          <ul>
+                            <li>
+                              <a href="">Crytello</a>
+                            </li>
+                            <li>
+                              <a href="">Pamello</a>
+                            </li>
+                          
+                          </ul>
+                        </span>
+                        <span>
+                          <ul>
+                          <li>
+                              <a href="">Waterello</a>
+                            </li>
+                            <li>
+                              <a href="">Ritello</a>
+                            </li>
+                          </ul>
+                        </span>
+                        <span>
+                        <h3>Contact Details</h3>
+                        <ul>
+                           
+                            <li><a href="">Natural Mineral Water</a></li>
+                            <li><a href="">Sachet Water</a></li>
+                            <li>
+                              <a href="">Dispenser Bottles</a>
+                            </li>
+                          </ul>
+                        </span>
+                      </div>
+                    </div>
+                  </li>
+                  {/* <li>
                   <a href="">About</a>
                   <div className="mega-dropdown">
                     <div className="mega-dropdown-wrap"></div>
                   </div>
                   
                   </li> */}
-              </ul>
+                </ul>
 
-              <div className="menuBtn">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
+                <div className="menuBtn">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
               </div>
             </div>
           </div>
