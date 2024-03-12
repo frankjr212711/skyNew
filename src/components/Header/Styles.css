@@ -340,9 +340,10 @@
     position: relative;
     overflow: hidden;
     max-height: 65px;
-    /* line-height: 45px; */
+    line-height: 25px;
     padding: 0 2rem 0 1rem;
     transition: 0.3s ease;
+    border-bottom: 1px solid #eee;
   }
   .drop-menu ul li {
   }
@@ -364,20 +365,24 @@
   }
   .drop-menu ul li a span:nth-child(2) {
     font-size: 20px;
+    transition: .3s ease;
   }
+
+
   .drop-menu ul li > ul {
     width: 100%;
   }
   .drop-menu ul li > ul li {
-    border-bottom: 1px solid #eee;
+ 
     padding: 0.5rem 1rem;
     transition: 0.2s ease;
-  }
-  .drop-menu ul li > ul li {
-    /* display: inline-block; */
     position: relative;
     font-size: 16px;
+    border-bottom: 1px solid #eee;
     transition: 0.3s ease;
+  }
+  .drop-menu ul li > ul li:last-child {
+    border-bottom: none;
   }
   .drop-menu ul li > ul li::before {
     content: "";
@@ -408,5 +413,8 @@
   }
   .drop-menu ul li:target {
     max-height: 600px;
+  }
+  .drop-menu ul li:target span:nth-child(2) {
+    transform: rotate(45deg)
   }
 }
