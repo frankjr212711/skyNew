@@ -1,11 +1,11 @@
-import styles from "./styles.css";
-import { HeaderAlias } from "../../HeaderAlias/index";
-import { Hero } from "../../Hero";
+import "./styles.css";
+import { HeadeR } from "../../HeaderR";
+
 
 export const GJR = () => {
   return (
     <>
-      <HeaderAlias />
+      <HeadeR />
 
       <div className="gjr-content">
         <div className="gjr-content-wrap">

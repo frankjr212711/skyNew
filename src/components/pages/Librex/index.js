@@ -1,7 +1,6 @@
 
-import styles from './styles.css';
-
-import { HeaderAlias } from '../../HeaderAlias/index';
+import './styles.css';
+import { HeadeR } from '../../HeaderR';
 
 
 
@@ -9,7 +8,7 @@ import { HeaderAlias } from '../../HeaderAlias/index';
 export const Librex = () => {
     return (
         <>
-        <HeaderAlias/>
+        <HeadeR/>
         
         <div className="lib-content">
             <div className="lib-content-wrap">

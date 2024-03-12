@@ -1,12 +1,13 @@
 
-import styles from './styles.css';
-import { HeaderAlias } from "../../HeaderAlias/index"
+import './styles.css';
+import { HeadeR } from '../../HeaderR';
+
 
 
 export const Skywalker = () => {
     return (
         <>
-        <HeaderAlias/>
+        <HeadeR/>
         <div className="sky-content">
             <div className="sky-content-wrap">
                 <div className='sky-inner'>
