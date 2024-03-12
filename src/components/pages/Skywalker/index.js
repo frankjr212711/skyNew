@@ -1,13 +1,15 @@
 
 import './styles.css';
 import { HeadeR } from '../../HeaderR';
+import { MainBar } from '../../MainBar';
 
 
 
 export const Skywalker = () => {
     return (
         <>
-        <HeadeR/>
+        {/* <HeadeR/> */}
+        <MainBar/>
         <div className="sky-content">
             <div className="sky-content-wrap">
                 <div className='sky-inner'>
