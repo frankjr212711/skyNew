@@ -11,6 +11,7 @@
     left: 0;
     border-top: 6px solid red;
     display: block;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .3);
   }
   .main-bar-content {
     width: 95%;
