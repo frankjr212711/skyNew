@@ -31,7 +31,7 @@ export const MainBar = () => {
               <ul>
                 <li id="sky-btn">
                   <a href="#sky-btn">
-                    <span>Skywalker Company Limited</span>
+                    <span>Waters</span>
                     <span>
                       <FaPlus />
                     </span>
@@ -50,7 +50,7 @@ export const MainBar = () => {
                 </li>
                 <li id="gjr-btn">
                   <a href="#gjr-btn">
-                    <span>GJR Company Limited</span>
+                    <span>GJR</span>
                     <span>
                       <FaPlus />
                     </span>
