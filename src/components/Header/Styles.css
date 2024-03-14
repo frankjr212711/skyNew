@@ -1,3 +1,10 @@
+:root {
+  --text-color-white: #fff;
+  --text-color-brown: #370d00;
+  --text-color-black-01: #111;
+  --text-color-black-02: #424242;
+}
+
 .website-header {
   color: white;
   position: absolute;
@@ -9,6 +16,7 @@
 }
 .top-bar {
   background: #e71c31;
+  background: var(--text-color-brown);
 }
 .top-bar nav {
   width: 80%;
@@ -53,9 +61,11 @@
 }
 .mainBarWrap:hover .logo {
   color: #000;
+  color: var(--text-color-brown);
 }
 .mainBarWrap:hover .inner ul li a {
   color: #000;
+  color: var(--text-color-brown);
 }
 .mainBarWrap .inner ul li a:hover {
   color: #f00;
@@ -97,9 +107,9 @@
 .mainBarWrap .inner ul li a::before {
   content: "";
   position: absolute;
-  top: 58px;
+  top: 51px;
   left: 0;
-  height: 6px;
+  height: 8px;
   width: 0%;
   background: #f00;
   transition: 0.3s ease;
@@ -111,8 +121,8 @@
 /* MEGA-DROPDOWN */
 .mainBarWrap .inner ul li .mega-dropdown {
   position: absolute;
-  top: 154px;
-  left: -5%;
+  top: 150px;
+  left: 0%;
   width: 100%;
   height: 270px;
   padding: 1rem 0;
@@ -123,7 +133,7 @@
   transition: 0.3s ease;
 }
 .mainBarWrap .inner ul li:hover .mega-dropdown {
-  top: 154px;
+  top: 152px;
   left: 0;
   visibility: visible;
   opacity: 1;

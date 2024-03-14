@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./Styles.css";
+import "./styles.css";
 
 
 import { MainBar } from "../MainBar/index";

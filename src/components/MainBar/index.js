@@ -20,11 +20,6 @@ export const MainBar = () => {
                 <span></span>
                 <span></span>
               </div>
-
-              {/* <div className="closeBtn">
-                <span></span>
-                <span></span>
-              </div> */}
             </div>
 
             {click && <div className="drop-menu">
@@ -38,13 +33,13 @@ export const MainBar = () => {
                   </a>
                   <ul>
                     <li>
-                      <p>Sachet Water</p>
+                      <a href="/skywalker">Sachet Water</a>
                     </li>
                     <li>
-                      <p>Dispenser Bottles</p>
+                      <a href="/skywalker">Dispenser Bottles</a>
                     </li>
                     <li>
-                      <p>Dispenser Fridge</p>
+                      <a href="/skywalker">Dispenser Fridge</a>
                     </li>
                   </ul>
                 </li>
@@ -57,25 +52,25 @@ export const MainBar = () => {
                   </a>
                   <ul>
                     <li>
-                      <p>Interior Designs</p>
+                      <a href="/gjr">Interior Designs</a>
                     </li>
                     <li>
-                      <p>General Wood Works</p>
+                      <a href="/gjr">General Wood Works</a>
                     </li>
                     <li>
-                      <p>Road Construction</p>
+                      <a href="/gjr">Road Construction</a>
                     </li>
                     <li>
-                      <p>Building Construction</p>
+                      <a href="/gjr">Building Construction</a>
                     </li>
                     <li>
-                      <p>Plumbing Works</p>
+                      <a href="/gjr">Plumbing Works</a>
                     </li>
                     <li>
-                      <p>General Merchant</p>
+                      <a href="/gjr">General Merchant</a>
                     </li>
                     <li>
-                      <p>Janitorial Services</p>
+                      <a href="/gjr">Janitorial Services</a>
                     </li>
                   </ul>
                 </li>
@@ -88,16 +83,16 @@ export const MainBar = () => {
                   </a>
                   <ul>
                     <li>
-                      <p>Crystello</p>
+                      <a href="/librex">Crystello</a>
                     </li>
                     <li>
-                      <p>Pamello</p>
+                      <a href="/librex">Pamello</a>
                     </li>
                     <li>
-                      <p>Waterello</p>
+                      <a href="/librex">Waterello</a>
                     </li>
                     <li>
-                      <p>Ritello</p>
+                      <a href="/librex">Ritello</a>
                     </li>
                   </ul>
                 </li>

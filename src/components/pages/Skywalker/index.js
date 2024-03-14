@@ -8,7 +8,7 @@ import { MainBar } from '../../MainBar';
 export const Skywalker = () => {
     return (
         <>
-        {/* <HeadeR/> */}
+        <HeadeR/>
         <MainBar/>
         <div className="sky-content">
             <div className="sky-content-wrap">
